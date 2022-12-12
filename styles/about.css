@@ -1,0 +1,81 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Shadows+Into+Light&family=Waiting+for+the+Sunrise&display=swap');
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: none;
+    height: 120px;
+}
+
+nav li a {
+    text-shadow: 1px 1px #bb3299;
+    color:white;
+    display: flex;
+    text-decoration: none;
+    padding: 1.2em;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 2em;   
+}
+
+nav ul li a:hover {
+    color: rgb(28, 25, 25);
+    background-color:rgba(red, rgb(188, 52, 163), blue, 0.4);
+    transition: 0.5s;
+}
+
+
+h1 {
+    /* display: flex;
+    float: left;
+    margin-top: 6%;
+    /* padding-right: 41%;
+    padding-bottom: 1%; */
+    margin-top: 4%;
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-family: 'Waiting for the Sunrise', cursive;
+    letter-spacing: 0.1em;
+    color: white; 
+    font-weight: bold;
+}
+
+main p{
+   
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 1.8em;
+    line-height: 250%;
+    color: aliceblue;
+    margin-left: 1.1em;
+    margin-right: 1.1em;
+}
+
+img {
+    display: flex;
+    width: 40%;
+    height: auto;
+    float: left;
+    gap: 10%;
+    padding: 3%;
+}
+
+body {
+ 
+    background-color:none; 
+    background: url(../images/MainBackground.png);
+    background-position: center; 
+}
+
+footer {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    padding: 1%;
+    color: aliceblue;
+    margin-top: 15%;
+    font-family: 'Amatic SC', cursive;
+}
+

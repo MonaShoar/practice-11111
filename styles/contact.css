@@ -1,0 +1,90 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Shadows+Into+Light&family=Waiting+for+the+Sunrise&display=swap');
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: none;
+    height: 120px;
+}
+
+nav li a {
+    text-shadow: 1px 1px #ac4d95;
+    color:white;
+    display: flex;
+    text-decoration: none;
+    padding: 1.2em;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 2em;     
+}
+
+nav ul li a:hover {
+    color: rgb(28, 25, 25);
+    background-color:rgba(red, rgb(188, 52, 163), blue, 0.4);
+    transition: 0.5s;
+}
+
+
+body{
+    background-color:none;
+    color: blanchedalmond;
+    background: url(../images/MainBackground.png);
+    background-position: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+
+  input{ 
+    width: 80%; 
+    padding: 1em;  
+    border: 2px solid rgb(66, 54, 54); 
+    border-radius: 25px; 
+    margin-top: 20px;
+    margin-bottom: 10px;     
+  }
+  form{
+    margin-left: 7em;
+  }
+
+  #submitBotton{
+    width: 11em;
+  }
+
+  div{    
+   width: 18em;
+   height: 8em;    
+  }
+  fieldset div label{
+    display: flex;
+    margin-top: 1em;
+  }
+
+  legend{
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    color:rgb(175, 175, 11);
+    padding: 1em;
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1px;
+    color:white;
+    font-family: "Amatic SC", cursive;
+}
+
+
+img {
+  width: 50%;
+  float: left;
+  margin-top: 0.5em;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 0em;
+}
+

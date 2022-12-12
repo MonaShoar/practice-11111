@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <script src="./js/main.js" defer></script>
+    <title>StrawberryCake</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="./ShopOnline.html">Shop Online</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        
+       
+        <figure>
+            <img src="./images/StrawberryCake.png" alt="a photo of a couple">
+        </figure>
+    </header>
+    <main>
+
+
+        <form name="subscribe" action="./index.html" method="get" name="contact-me" data-netlify="true">
+            <fieldset>
+
+                <legend>Your Information</legend>
+                <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name" required maxlength="20" minlength="2"
+                        placeholder="Your Name"><br>
+                </div>
+                <div>
+                    <label for="message on  the cake">message on  the cake</label><br>
+                    <input type="text" name="message on  the cake" id="message on  the cake" maxlength="50" minlength="2" placeholder="message on  the cake">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Your Contact Options</legend>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" required placeholder="Your Email"><br>
+                </div>
+                <div>
+                    <label for="tel">Phone</label><br>
+                    <input type="tel" name="tel" id="tel" placeholder="(555)555-5555">
+                </div>
+            </fieldset>
+            <fieldset>
+            <div>
+                <button onclick="myJs1()" href="./index.html">submit</button>
+            </div>
+            </fieldset>
+        </form>
+
+
+
+    </main>
+    <footer>&copy; 2022 Mona & Kz</footer>
+</body>
+
+</html>
