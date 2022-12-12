@@ -1,8 +1,6 @@
 @import url(./reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Homemade+Apple&family=Shadows+Into+Light&family=Waiting+for+the+Sunrise&display=swap');
-*{
-    /* outline:1px dashed rgb(231, 222, 222) */
-}
+
 
 ul {
     display: flex;
@@ -16,7 +14,8 @@ nav li a {
     color: white;
     display: flex;
     text-decoration: none;
-    padding: 1.2em;
+    padding-bottom: 1.2em;
+    padding-top: 1.2em;
     font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
     font-size: 2em;
@@ -33,19 +32,20 @@ body {
     background-color: none;
     background: url(../images/MainBackground.png);
     background-position: center;
+    background-size: cover;
     color: #fff;
     font-family: 'Shadows Into Light', cursive;
 }
 
 article {
     width: 33%;
-    height: 60%;
+    /* height: 50%; */
     display: flex;
     float: left;
     flex-direction: column;
     padding: 1em;
     border: 1px solid #bb3299;
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 
@@ -55,7 +55,7 @@ main h2 {
     background-color: #bb3299;
     color: rgb(248, 243, 243);
     padding: 0.5em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     text-align: center;
     justify-content: center;
 }
@@ -69,7 +69,7 @@ main p {
 
 
 main footer {
-    margin-top: 1em;
+    /* margin-top: 1em; */
     text-align: center;
 }
 
@@ -101,14 +101,48 @@ footer {
     text-align: center;
     color: aliceblue;
     font-family: 'Amatic SC', cursive;
-    margin-top: 2em;   
+    /* margin-top: 2em;    */
 }
 
 h1 {
     display: flex;
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 0.5em;
     color: #bb3299;
     justify-content: center;
 }
- 
+@media screen and (max-width: 800px) {
+    main article
+     {          
+     width: 100%;           
+     justify-content: center;
+     column-count: 3;    
+     justify-content: center;
+     gap: 1em;
+     flex-wrap: wrap;
+     }
+
+ }
+ #button1 {
+
+     display: flex;
+     margin-left: 9%;
+     float: none;
+     font-size: 4em;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+ }
+
+ #button2 {
+
+     display: flex;
+     margin-left: 0%;
+     float: none;
+     font-size: 4em;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+ }
+
+
